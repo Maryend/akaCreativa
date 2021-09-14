@@ -1,0 +1,251 @@
+/**selector universal*/
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+
+/**definimos que rem van a valor de 10px*/
+
+html {
+    font-size: 62.5%;
+}
+
+
+/**NAVBAR*/
+
+nav ul li a {
+    text-align: left;
+    font: normal normal 900 30px/38px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #660000;
+    opacity: 1;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 30px 30px;
+}
+
+nav ul li a:hover {
+    color: #FBE3E3;
+}
+
+
+/**TEXTO HOME*/
+
+#seccionPrincipal {
+    background-color: #FBE3E3;
+}
+
+h1 {
+    text-align: center;
+    font: normal normal 900 30px/38px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 4rem;
+    color: #660000;
+    opacity: 1;
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 0px 0px;
+}
+
+#texto {
+    text-align: center;
+    font: normal normal Source Sans Pro;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-size: 2rem;
+    color: #000033;
+    opacity: 1;
+    text-decoration: none;
+    padding: 30px 45px;
+    margin: 0px 30px;
+}
+
+footer {
+    background-color: #660000;
+    width: 100%;
+    text-align: left;
+    font: normal normal 900 30px/38px Source Sans Pro;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-size: 1rem;
+    color: #FBE3E3;
+    opacity: 1;
+    padding: 25px 25px;
+    margin: 0px 0px;
+}
+
+
+/**redes sociales*/
+
+#icono1 {
+    padding: 5px 20px;
+    position: fixed;
+    top: 360px;
+}
+
+#icono2 {
+    padding: 5px 20px;
+    position: fixed;
+    top: 390px;
+}
+
+
+/**SECCION PERFIL*/
+
+.container-fluid {
+    background-color: #FBE3E3;
+    background-position: right;
+    padding: 0px 0px;
+    display: flex;
+    margin: 0px 0px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+}
+
+
+/**TEXTO PERFIL*/
+
+main {
+    background-color: #FBE3E3;
+    text-align: left;
+    font: normal normal Source Sans Pro;
+    letter-spacing: 0px;
+    line-height: 25px;
+    font-size: 2rem;
+    color: #000033;
+    opacity: 1;
+    text-decoration: none;
+    padding: 30px 60px;
+    margin: 0px 20px;
+}
+
+h2 {
+    text-align: left;
+    font: normal normal Source Sans Pro;
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-size: 1.5rem;
+    color: #000033;
+    opacity: 1;
+    text-decoration: none;
+    padding: 0px 20px 30px 20px;
+    margin-bottom: 0px;
+}
+
+
+/**Formulario*/
+
+input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #00000026;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000033;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 20px/30px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #000033;
+    word-spacing: 1px;
+    opacity: 1;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+/**área del texto a ingresar por usuario*/
+
+textarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 5px #00000026;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000033;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 20px/30px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #000033;
+    word-spacing: 1px;
+    opacity: 1;
+    padding: 10px 10px;
+    position: relative;
+    bottom: 0px;
+    left: 50px;
+}
+
+label {
+    text-align: center;
+    font: normal normal normal 20px/30px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000033;
+    opacity: 1;
+    padding: 20px 20px;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+}
+
+
+/**Botones*/
+
+#botonEnviar {
+    background: #FBE3E3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #00000026;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000033;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 20px/30px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #000033;
+    word-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    padding: 4px 50px 4px 50px;
+    margin: 0px 0px;
+}
+
+#botonReset {
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #00000026;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000033;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 20px/30px Source Sans Pro;
+    letter-spacing: 0px;
+    font-size: 2rem;
+    color: #000033;
+    word-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    padding: 4px 50px 4px 50px;
+    margin: 20px 0px;
+}
+
+.container {
+    background-color: white;
+    background-position: center;
+    padding: 20px 0px;
+    margin: 0px 0px;
+}
